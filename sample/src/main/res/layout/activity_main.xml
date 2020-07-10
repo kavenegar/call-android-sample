@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="io.kavenegar.call.android.sample.activities.MainActivity">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/main_toolbar" />
+
+
+    <LinearLayout
+        android:id="@+id/dial_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eee"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/dial_username_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number you want to call"
+            android:inputType="text"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/dial_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#25a501"
+            android:text="Call"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

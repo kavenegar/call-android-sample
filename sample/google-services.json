@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "890067214315",
+    "firebase_url": "https://kavenegar-call-sample-android.firebaseio.com",
+    "project_id": "kavenegar-call-sample-android",
+    "storage_bucket": "kavenegar-call-sample-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890067214315:android:a073b715ebe2b23e",
+        "android_client_info": {
+          "package_name": "io.kavenegar.call.android.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890067214315-at4lnova4virtg3mf6bvqol1bcm7oo46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0QJdaTjjLhSX9tiT1W23wq7kMENGmu5Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

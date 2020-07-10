@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_text_size" >18sp</dimen>
+    <dimen name="verification_code_text_size" >18sp</dimen>
+    <dimen name="verification_code_bottom_icon_height">6dp</dimen>
+    <dimen name="verification_code_bottom_icon_width">48dp</dimen>
+    <dimen name="verification_code_item_space_size">19dp</dimen>
+    <color name="verification_code_bottom_icon_bg">#845800</color>
+    <color name="verification_code_bottom_error_icon_bg">#e84849</color>
+    <color name="verification_code_text_color">#555</color>
+</resources>

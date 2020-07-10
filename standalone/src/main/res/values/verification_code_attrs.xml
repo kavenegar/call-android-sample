@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VerificationCodeView">
+        <attr name="vcodeTextSize" format="dimension" />
+        <attr name="vcodeTextColor" format="color" />
+        <attr name="vcodeBottomIcon" format="reference" />
+        <attr name="vcodeViewCount" format="integer" />
+        <attr name="vcodeItemSpaceSize" format="dimension" />
+    </declare-styleable>
+</resources>

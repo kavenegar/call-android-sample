@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        android:title="بیشتر" />
+    
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="پروفایل" />
+
+    <item
+        android:id="@+id/navigation_contacts"
+        android:icon="@drawable/ic_people_black_24dp"
+        android:title="مخاطبین" />
+
+    <item
+        android:id="@+id/navigation_logs"
+        android:icon="@drawable/ic_call_black_24dp"
+        android:title="تماس ها" />
+    <item
+        android:id="@+id/navigation_call_queue"
+        android:icon="@drawable/ic_headset_black_24dp"
+        android:title="صف تماس" />
+
+</menu>

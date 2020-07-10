@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "io.kavenegar.call.android.sample"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+
+        debug {
+            minifyEnabled false
+        }
+
+        lintOptions {
+            
+        }
+    }
+
+}
+
+dependencies {
+
+    if (System.getenv("KAVENEGAR_ENV") == "dev") {
+        implementation project(':sdk:sdk')
+    }
+    else {
+        print(System.getenv("KAVENEGAR_ENV"))
+        implementation 'io.kavenegar:call-sdk:1.2.8.1'
+    }
+    implementation 'com.google.firebase:firebase-messaging:20.2.1'
+
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+}
+apply plugin: 'com.google.gms.google-services'
