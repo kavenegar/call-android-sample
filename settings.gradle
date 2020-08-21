@@ -1,3 +1,2 @@
 include ':standalone'
 include ':sample'
-include ':sdk:sdk'
