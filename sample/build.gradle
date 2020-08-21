@@ -32,14 +32,7 @@ dependencies {
 
     implementation 'com.google.firebase:firebase-messaging:20.2.1'
     implementation 'androidx.appcompat:appcompat:1.0.0'
-
-    if (System.getenv("KAVENEGAR_ENV") == "dev") {
-        implementation project(':sdk:sdk')
-    }
-    else {
-        implementation 'io.kavenegar:call-sdk:1.3.0-beta'
-    }
-
+    implementation 'io.kavenegar:call-sdk:1.3.0-beta'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
